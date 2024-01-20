@@ -44,11 +44,11 @@ composer install
 # API endpoint to retrieve user information.
 
 # Get all user informations
-curl --location 'http://127.0.0.1:8080/api/users?api_key=base64%3AniAH0v3v4lfdzJm0nwBUlCV4za57WU2FydDRCcVDY%3D' \
+curl --location 'http://127.0.0.1:8080/api/users?api_key=base64:niAH0v3v4lfdzJm0nwBUlCV4za57WU2FydDRCcVDY=' \
 --header 'Cookie: auth-key=4996e0a1-5554-4aa0-83d0-027b36b4208c'
 
 # Get user information by ID
-curl --location 'http://127.0.0.1:8080/api/users/3?api_key=base64%3AniAH0v3v4lfdzJm0nwBUlCV4za57WU2FydDRCcVDY%3D' \
+curl --location 'http://127.0.0.1:8080/api/users/3?api_key=base64:niAH0v3v4lfdzJm0nwBUlCV4za57WU2FydDRCcVDY=' \
 --header 'Cookie: auth-key=4996e0a1-5554-4aa0-83d0-027b36b4208c'
 
 # Authentication (set in .env file)
